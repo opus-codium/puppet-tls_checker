@@ -1,0 +1,5 @@
+---
+tls_checker::group: "nogroup"
+tls_checker::package_provider: "gem"
+tls_checker::tls_checker_path: "/usr/local/bin/tls-checker"
+tls_checker::user: "nobody"
