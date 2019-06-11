@@ -1,0 +1,4 @@
+---
+tls_checker::package_provider: "puppet_gem"
+tls_checker::tls_checker_path: "/opt/puppetlabs/puppet/bin/tls-checker"
+tls_checker::group: "nobody"
