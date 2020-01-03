@@ -15,11 +15,11 @@ class tls_checker (
   String $logfile = '/var/log/tls-checker.jsonl',
   String $ensure  = 'installed',
 
-  $hour     = '*/4',
-  $minute   = fqdn_rand(60),
-  $month    = undef,
-  $monthday = undef,
-  $weekday  = undef,
+  Any $hour     = '*/4',
+  Any $minute   = fqdn_rand(60),
+  Any $month    = undef,
+  Any $monthday = undef,
+  Any $weekday  = undef,
 
   Optional[String] $user  = 'nobody',
   Optional[String] $group = 'nogroup',
