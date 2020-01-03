@@ -1,3 +1,16 @@
+# @summary Configure tls_checker
+#
+# @param logfile Logfile to store certificates status
+# @param ensure
+#
+# @param hour
+# @param minute
+# @param month
+# @param monthday
+# @param weekday
+#
+# @param user User to check TLS status as
+# @param group Group to check TLS status as
 class tls_checker (
   String $logfile = '/var/log/tls-checker.jsonl',
   String $ensure  = 'installed',
