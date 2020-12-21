@@ -1,6 +1,6 @@
 {
   "name": "opuscodium-tls_checker",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Opus Codium",
   "summary": "Installs, configures, and manages TLS checker",
   "license": "Apache-2.0",
@@ -8,6 +8,7 @@
   "project_page": "https://github.com/opus-codium/puppet-tls_checker",
   "issues_url": "https://github.com/opus-codium/puppet-tls_checker/pulls",
   "dependencies": [
+
   ],
   "data_provider": "hiera",
   "operatingsystem_support": [
