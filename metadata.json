@@ -8,7 +8,10 @@
   "project_page": "https://github.com/opus-codium/puppet-tls_checker",
   "issues_url": "https://github.com/opus-codium/puppet-tls_checker/pulls",
   "dependencies": [
-
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.13.0 < 7"
+    }
   ],
   "operatingsystem_support": [
     {
