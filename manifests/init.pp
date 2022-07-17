@@ -14,8 +14,6 @@
 # @param user User to check TLS status as
 # @param group Group to check TLS status as
 class tls_checker (
-  Optional[String]          $user,
-  Optional[String]          $group,
   Enum['gem', 'puppet_gem'] $package_provider,
   String                    $tls_checker_path,
 
@@ -27,6 +25,9 @@ class tls_checker (
   Any $month    = undef,
   Any $monthday = undef,
   Any $weekday  = undef,
+
+  Optional[String] $user = undef,
+  Optional[String] $group = undef,
 ) {
   package { 'tls-checker':
     ensure   => $ensure,
