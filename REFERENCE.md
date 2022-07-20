@@ -112,11 +112,15 @@ Data type: `Optional[String]`
 
 User to check TLS status as
 
+Default value: ``undef``
+
 ##### <a name="group"></a>`group`
 
 Data type: `Optional[String]`
 
 Group to check TLS status as
+
+Default value: ``undef``
 
 ## Defined types
 
