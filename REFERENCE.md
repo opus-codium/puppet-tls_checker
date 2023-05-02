@@ -10,11 +10,11 @@
 
 ### Defined types
 
-* [`tls_checker::watch`](#tls_checkerwatch): summary Add TLS endpoints to monitor
+* [`tls_checker::watch`](#tls_checker--watch): summary Add TLS endpoints to monitor
 
 ### Functions
 
-* [`tls_checker::watched_endpoints`](#tls_checkerwatched_endpoints): Extract watched TLS endpoints from PuppetDB
+* [`tls_checker::watched_endpoints`](#tls_checker--watched_endpoints): Extract watched TLS endpoints from PuppetDB
 
 ## Classes
 
@@ -26,31 +26,31 @@ Configure tls_checker
 
 The following parameters are available in the `tls_checker` class:
 
-* [`package_provider`](#package_provider)
-* [`tls_checker_path`](#tls_checker_path)
-* [`logfile`](#logfile)
-* [`ensure`](#ensure)
-* [`hour`](#hour)
-* [`minute`](#minute)
-* [`month`](#month)
-* [`monthday`](#monthday)
-* [`weekday`](#weekday)
-* [`user`](#user)
-* [`group`](#group)
+* [`package_provider`](#-tls_checker--package_provider)
+* [`tls_checker_path`](#-tls_checker--tls_checker_path)
+* [`logfile`](#-tls_checker--logfile)
+* [`ensure`](#-tls_checker--ensure)
+* [`hour`](#-tls_checker--hour)
+* [`minute`](#-tls_checker--minute)
+* [`month`](#-tls_checker--month)
+* [`monthday`](#-tls_checker--monthday)
+* [`weekday`](#-tls_checker--weekday)
+* [`user`](#-tls_checker--user)
+* [`group`](#-tls_checker--group)
 
-##### <a name="package_provider"></a>`package_provider`
+##### <a name="-tls_checker--package_provider"></a>`package_provider`
 
 Data type: `Enum['gem', 'puppet_gem']`
 
 Which package provider to use
 
-##### <a name="tls_checker_path"></a>`tls_checker_path`
+##### <a name="-tls_checker--tls_checker_path"></a>`tls_checker_path`
 
 Data type: `String`
 
 Path to tls-checker
 
-##### <a name="logfile"></a>`logfile`
+##### <a name="-tls_checker--logfile"></a>`logfile`
 
 Data type: `String`
 
@@ -58,7 +58,7 @@ Logfile to store certificates status
 
 Default value: `'/var/log/tls-checker.jsonl'`
 
-##### <a name="ensure"></a>`ensure`
+##### <a name="-tls_checker--ensure"></a>`ensure`
 
 Data type: `String`
 
@@ -66,7 +66,7 @@ Data type: `String`
 
 Default value: `'installed'`
 
-##### <a name="hour"></a>`hour`
+##### <a name="-tls_checker--hour"></a>`hour`
 
 Data type: `Any`
 
@@ -74,7 +74,7 @@ Data type: `Any`
 
 Default value: `'*/4'`
 
-##### <a name="minute"></a>`minute`
+##### <a name="-tls_checker--minute"></a>`minute`
 
 Data type: `Any`
 
@@ -82,49 +82,49 @@ Data type: `Any`
 
 Default value: `fqdn_rand(60)`
 
-##### <a name="month"></a>`month`
+##### <a name="-tls_checker--month"></a>`month`
 
 Data type: `Any`
 
 
 
-Default value: ``undef``
+Default value: `undef`
 
-##### <a name="monthday"></a>`monthday`
-
-Data type: `Any`
-
-
-
-Default value: ``undef``
-
-##### <a name="weekday"></a>`weekday`
+##### <a name="-tls_checker--monthday"></a>`monthday`
 
 Data type: `Any`
 
 
 
-Default value: ``undef``
+Default value: `undef`
 
-##### <a name="user"></a>`user`
+##### <a name="-tls_checker--weekday"></a>`weekday`
+
+Data type: `Any`
+
+
+
+Default value: `undef`
+
+##### <a name="-tls_checker--user"></a>`user`
 
 Data type: `Optional[String]`
 
 User to check TLS status as
 
-Default value: ``undef``
+Default value: `undef`
 
-##### <a name="group"></a>`group`
+##### <a name="-tls_checker--group"></a>`group`
 
 Data type: `Optional[String]`
 
 Group to check TLS status as
 
-Default value: ``undef``
+Default value: `undef`
 
 ## Defined types
 
-### <a name="tls_checkerwatch"></a>`tls_checker::watch`
+### <a name="tls_checker--watch"></a>`tls_checker::watch`
 
 summary Add TLS endpoints to monitor
 
@@ -132,9 +132,9 @@ summary Add TLS endpoints to monitor
 
 The following parameters are available in the `tls_checker::watch` defined type:
 
-* [`endpoints`](#endpoints)
+* [`endpoints`](#-tls_checker--watch--endpoints)
 
-##### <a name="endpoints"></a>`endpoints`
+##### <a name="-tls_checker--watch--endpoints"></a>`endpoints`
 
 Data type: `Variant[Array[String], String]`
 
@@ -144,7 +144,7 @@ Default value: `$title`
 
 ## Functions
 
-### <a name="tls_checkerwatched_endpoints"></a>`tls_checker::watched_endpoints`
+### <a name="tls_checker--watched_endpoints"></a>`tls_checker::watched_endpoints`
 
 Type: Puppet Language
 
