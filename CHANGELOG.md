@@ -1,13 +1,20 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+Each new release typically also includes the latest modulesync defaults.
+These should not affect the functionality of the module.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [v3.1.0](https://github.com/opus-codium/puppet-tls_checker/tree/v3.1.0) (2023-06-14)
 
-## [3.0.0](https://github.com/opus-codium/puppet-tls_checker/tree/3.0.0) (2022-07-19)
+[Full Changelog](https://github.com/opus-codium/puppet-tls_checker/compare/v3.0.0...v3.1.0)
 
-[Full Changelog](https://github.com/opus-codium/puppet-tls_checker/compare/2.0.1...3.0.0)
+**Implemented enhancements:**
+
+- Allow puppetlabs-stdlib 9.x [\#29](https://github.com/opus-codium/puppet-tls_checker/pull/29) ([smortex](https://github.com/smortex))
+
+## [v3.0.0](https://github.com/opus-codium/puppet-tls_checker/tree/v3.0.0) (2022-07-20)
+
+[Full Changelog](https://github.com/opus-codium/puppet-tls_checker/compare/2.0.1...v3.0.0)
 
 **Breaking changes:**
 
@@ -59,6 +66,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add documentation [\#3](https://github.com/opus-codium/puppet-tls_checker/pull/3) ([smortex](https://github.com/smortex))
 - Make the module RedHat compatible [\#1](https://github.com/opus-codium/puppet-tls_checker/pull/1) ([smortex](https://github.com/smortex))
+
+**Merged pull requests:**
+
+- Add a GitHub action for publishing to the forge [\#8](https://github.com/opus-codium/puppet-tls_checker/pull/8) ([smortex](https://github.com/smortex))
+- Switch from Travis CI to GitHub Actions [\#7](https://github.com/opus-codium/puppet-tls_checker/pull/7) ([neomilium](https://github.com/neomilium))
 
 
 
