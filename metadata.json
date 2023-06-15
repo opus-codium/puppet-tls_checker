@@ -1,6 +1,6 @@
 {
   "name": "opuscodium-tls_checker",
-  "version": "3.1.0",
+  "version": "3.1.1-rc0",
   "author": "Opus Codium",
   "summary": "Installs, configures, and manages TLS checker",
   "license": "Apache-2.0",
